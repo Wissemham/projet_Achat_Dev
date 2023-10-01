@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T17:11:06 GMT+01:00" name="Surefire suite" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="956">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T17:11:06 GMT+01:00" name="Surefire test" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="956">
+      <class name="tn.esprit.rh.achat.ProduitServiceMockTest">
+        <test-method signature="testretrieveAllProduits()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testretrieveAllProduits" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testretrieveAllProduits -->
+        <test-method signature="testdeleteProduit()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testdeleteProduit" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteProduit -->
+        <test-method signature="testupdateProduit()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testupdateProduit" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdateProduit -->
+        <test-method signature="testaddProduit()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testaddProduit" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddProduit -->
+        <test-method signature="testassignProduitToStock()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testassignProduitToStock" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testassignProduitToStock -->
+        <test-method signature="testRetrieveProduit()" started-at="2023-09-25T17:11:06 GMT+01:00" name="testRetrieveProduit" finished-at="2023-09-25T17:11:07 GMT+01:00" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveProduit -->
+      </class> <!-- tn.esprit.rh.achat.ProduitServiceMockTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
