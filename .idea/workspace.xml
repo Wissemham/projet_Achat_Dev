@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b64ef66-ac90-497b-8956-1c7359b21dd3" name="Changes" comment="" />
+    <list default="true" id="1b64ef66-ac90-497b-8956-1c7359b21dd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +43,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "afe13630af290fb03723851bcdb415ab"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AchatApplication">
+    <configuration name="AchatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="projet_Devops" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.rh.achat.AchatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AchatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Achat-master" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.rh.achat.AchatApplication" />
@@ -63,6 +83,8 @@
       <workItem from="1695656387494" duration="56000" />
       <workItem from="1695656456667" duration="281000" />
       <workItem from="1695656751183" duration="2261000" />
+      <workItem from="1697321245187" duration="1014000" />
+      <workItem from="1697322660290" duration="197000" />
     </task>
     <servers />
   </component>
