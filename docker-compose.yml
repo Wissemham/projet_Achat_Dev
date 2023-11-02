@@ -1,7 +1,7 @@
 version: "3"
 services:
   springboot-app:
-    container_name: achat-app
+    container_name: kaddem-app
     image: wissemhammouda/alpine:2.1-SPRING-COMPOSE
     restart: always
     build: .
@@ -13,20 +13,22 @@ services:
       MYSQL_PASSWORD: root
       MYSQL_PORT: 3306
   mysqldb:
-    container_name: mysqldbachat
+    container_name: mysqldb
     image: mysql
-   # volumes:
-      #-  /home/user/5SE2/DEVOPS/Projet/db:/var/lib/mysql
+    volumes:
+      - /home/user/5SE2/DEVOPS/Projet/db:/var/lib/mysql
     ports:
       - 3307:3306
     environment:
       MYSQL_DATABASE: test
       MYSQL_ROOT_PASSWORD: root
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
     environment:
       PMA_HOST: mysqldb
       PMA_PORT: 3306
-    ports:
-      - "8083:80"
+      MYSQL_ROOT_PASSWORD: root
